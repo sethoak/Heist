@@ -1,0 +1,11 @@
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.exe
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.deps.json
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.runtimeconfig.json
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.runtimeconfig.dev.json
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.dll
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\bin\Debug\netcoreapp3.0\Csharp-Heist.pdb
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\obj\Debug\netcoreapp3.0\Csharp-Heist.csprojAssemblyReference.cache
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\obj\Debug\netcoreapp3.0\Csharp-Heist.AssemblyInfoInputs.cache
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\obj\Debug\netcoreapp3.0\Csharp-Heist.AssemblyInfo.cs
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\obj\Debug\netcoreapp3.0\Csharp-Heist.dll
+C:\Users\Oakley\desktop\workspace\Csharp-Heist\obj\Debug\netcoreapp3.0\Csharp-Heist.pdb
