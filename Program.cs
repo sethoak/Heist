@@ -1,32 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Heist1
+
+namespace HeistExercise
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Plan Your Heist");
+            Console.WriteLine();
+            Heister teamMember;
 
-            Dictionary<string, string> teamMember = new Dictionary<string, string>();
-
-            Console.WriteLine("Enter your team member's name");
+            Console.WriteLine("What is the team member's name?");
             string name = Console.ReadLine();
-            teamMember.Add("Name", name);
 
-            Console.WriteLine("Enter your team member's skill level");
-            string skillLevel = Console.ReadLine();
-            teamMember.Add("Skill Level", skillLevel);
+            Console.WriteLine("What is the team member's skill level?");
+            string skillLevelString = Console.ReadLine();
+            int skillLevel;
 
-            Console.WriteLine("Enter your team member's courage factor");
-            string courageFactor = Console.ReadLine();
-            teamMember.Add("Courage Factor", courageFactor);
-
-            foreach (KeyValuePair<string, string> attribute in teamMember)
+            try
             {
-                Console.WriteLine($"{attribute.Key}: {attribute.Value}");
+                skillLevel = int.Parse(skillLevelString);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"{skillLevelString} is not a valid skill level. Using a default value of 10");
+                skillLevel = 10;
+            }
+
+            Console.WriteLine("What is the team member's courage factor?");
+            string courageFactorString = Console.ReadLine();
+            decimal courageFactor;
+
+            try
+            {
+                courageFactor = decimal.Parse(courageFactorString);
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine($"{courageFactorString} is not a valid courage factor. Using a default value of 1.0");
+                courageFactor = 1.0M;
+            }
+
+            teamMember = new Heister()
+            {
+                Name = name,
+                SkillLevel = skillLevel,
+                CourageFactor = courageFactor
+            };
+
+            Heister =
+            List < Heister > members = new List<Heister>();
+
+            Console.WriteLine($"Name: {teamMember.Name}");
+            Console.WriteLine($"Skill Level: {teamMember.SkillLevel}");
+            Console.WriteLine($"Courage Factor: {teamMember.CourageFactor}");
         }
     }
 }
